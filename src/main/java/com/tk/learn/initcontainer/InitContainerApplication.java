@@ -52,7 +52,7 @@ public class InitContainerApplication {
         String yamlFilePath = System.getenv("SECRET_YAML_PATH");
         if (yamlFilePath == null) {
             // Fallback to default if the environment variable is not set yamlFilePath = "/tmp/secrets.yaml";
-            yamlFilePath = "/Users/thejkaruneegar/az-init-container/init-container/mnt/secrets.yaml";
+            yamlFilePath = "/Users/az-init-container/init-container/mnt/secrets.yaml";
             // Modify as per your need (e.g., location in Docker container)
         }
         // Specify the file path where you want to store the YAML file
